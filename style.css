@@ -1,0 +1,22 @@
+.container {
+  color: black;
+  position: absolute;
+  width: 560px;
+  height: 300px;
+  padding: 25px;
+  border: solid black 5px;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  background-color: white;
+}
+.border {
+  height: 950px;
+  margin: 10px;
+  border: 15px solid;
+}
+
+body {
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red, yellow);
+}
